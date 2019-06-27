@@ -1,0 +1,164 @@
+
+@media only screen and (max-width: 1600px) {
+    /*.card_holder_bg{
+        top: 117px;
+    }
+    .head_bg{
+        height: 0;
+        padding-bottom: 39%;
+    }
+    .bg{
+        top:auto;
+        margin-top: 38%;
+    }*/
+
+}
+@media only screen and (max-width: 1366px) {
+    .star_track .card_holder .card.yellow-card{
+        height: 460px;
+        width: 289px !important;
+    }
+    .star_track .card.yellow-card .clip_image{
+        height: 405px;
+    }
+    .star_track .card.yellow-card .name_holder{
+        height: 7.3rem;
+    }
+    .star_track .card.yellow-card .name_holder p{
+    }
+    .star_track .card.yellow-card .logo_symbols{
+        height: 85px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    
+    .star_track .card_holder .card.yellow-card{
+        height: 400px;
+        width: 256px !important;
+    }
+    .star_track .card.yellow-card .clip_image{
+        height: 361px;
+    }
+    .star_track .card.yellow-card .logo_symbols{
+        height: 75px;
+    }
+    .star_track .head_bg{
+        padding-bottom: 45%;
+    }
+}
+@media only screen and (max-width: 864px) {
+    .star_track .card_holder .card.yellow-card{
+        height: 350px;
+        width: 225px !important;
+    }
+    .star_track .card.yellow-card .clip_image{
+        height: 309px;
+    }
+    .star_track .card.yellow-card .logo_symbols{
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .star_track .card_holder .card.yellow-card{
+        height: auto;
+    }
+    .star_track .head_title{        
+        padding:0;
+        height: 0;
+        padding-bottom:68.48%;
+    }
+    .star_track .head_title img,.star_track .head_title .title{
+        width: 100%;
+        /*height: 100%;*/
+        position: absolute;
+        background-size: contain;
+        background-position: center;
+        object-fit: contain;
+        object-position: center;
+    }
+    .star_track .section_left{
+        width: 100%;
+        /*padding-top: 91px;*/
+        padding-top: 16%;
+    }
+    .star_track .head_bg{
+        z-index: 0;
+        /*height: 271px;*/
+        height: 0;
+      padding-bottom: 65.6%;
+    }
+    .star_track .card_holder{
+        margin:0 9px;
+        -webkit-display:flex;
+	display:-webkit-flex;
+	display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .star_track .card.yellow-card{
+        /*width:50% !important;*/
+        flex:1 0 50%;
+        height: auto;
+        padding-bottom: 0;
+        padding:9px;
+        margin:0;
+        border-radius: 0;
+        overflow: visible;
+        border:none;
+        background: transparent;
+        -webkit-box-shadow:none;
+        box-shadow:none;
+    }
+    .star_track .card .inner{        
+        border-radius: 25px;
+        overflow: hidden;
+        border: 4px solid #FFD800;
+        position: relative;
+        height: 300px;
+        -webkit-box-shadow: 9px 11px 16px rgba(0,0,0,.33);
+    box-shadow: 9px 11px 16px rgba(0,0,0,.33);
+    }
+    .star_track .card_h{
+        padding:9px;
+    }
+    .star_track .card.yellow-card .clip_image{
+        border-radius:0;
+        height: 100%;
+    }
+    .star_track .card.yellow-card .name_holder{
+        display: block;
+        height: 43px;
+    }
+    .star_track .card.yellow-card .name_holder p{
+        line-height: 43px;
+    }
+    .star_track .card.yellow-card .new_tag{
+        right: auto;
+        top:auto;
+        left:12px;
+        bottom:51px;
+        padding: 4px 8px;
+        font-size: 1.4rem;
+        width: 45px;
+        height: auto;
+        line-height: 1.4rem;
+        white-space: nowrap;
+    }
+    .star_track .card.yellow-card .logo_symbols{
+        display: block;
+    }
+    .star_track .card.yellow-card .logo_symbols .symbol{
+        width: 58px;
+        height: auto;
+        background-size: contain;
+    }
+    .star_track .card.yellow-card .logo_symbols {
+        width: auto;
+        height: 58px;
+        top: -3px;
+        right: 1px;
+    }
+    .star_track .card_content{
+        margin-bottom: 25px;
+    }
+}

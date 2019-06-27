@@ -1,0 +1,17 @@
+@media only screen and (max-width: 767px) {
+	.privacy .wrap-content{
+		padding:0 20px;
+	}
+	.privacy .body_content {
+	    margin-top: 88px;
+	}
+	.privacy .body_content p{
+		line-height: 28px;
+	}
+	.privacy .body_content h1{
+		margin-bottom: 36px;
+	}
+	.privacy .body_content p{
+		margin-bottom: 33px;
+	}
+}

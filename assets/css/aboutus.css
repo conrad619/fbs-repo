@@ -1,0 +1,85 @@
+.aboutus .wrap-container{
+	position: relative;
+}
+.aboutus .wrap-content{
+	position: relative;
+    max-width: 1450px;
+    padding:0 47px;
+}
+.aboutus .head_bg{
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 64%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 64%);
+	width: 100%;
+	margin-top: 56px;
+	margin-top: 5.6rem;
+    /*height: 736px;*/
+    height: 0;
+    padding-bottom: 38.35%;
+    position: relative;
+    background-image:url(../images/pages/aboutus/head_bg.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.aboutus .head_bg img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+}
+.aboutus .bg{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/pages/latest_news/bg.svg);
+    z-index: -2;
+    top: 56px;
+    top: 5.6rem;
+    background-size: cover;
+}
+.aboutus .hr-break.green{
+	border-bottom: 3px solid #00CF9B;
+	width: 100%;
+	margin:48px auto 75px;
+	max-width: 1232px;
+}
+.aboutus .more-btn{
+	margin-top: 30px;
+
+}
+.aboutus .body_content{
+	margin-top:-23px;
+}
+.aboutus .body_content h1{
+	margin-bottom: 41px;
+	margin-bottom: 4.1rem;
+}
+.aboutus .body_content p{
+	margin-bottom: 68px;
+	margin-bottom: 6.8rem;
+	line-height: 35px;
+	line-height: 3.5rem;
+}
+
+.aboutus .body_content p span{
+	display:block;
+	margin-top:43px;
+	margin-top:4.3rem;
+}
+.aboutus .logo{
+	display:block;
+    margin: 0 auto;
+    /* margin-bottom: 85px; */
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.aboutus .wrap_image{
+    height: 0;
+    padding-bottom: 10%;
+    position: relative;
+    margin-bottom: 80px;
+    margin-bottom: 8.0rem;
+}

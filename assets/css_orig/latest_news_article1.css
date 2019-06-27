@@ -1,0 +1,202 @@
+
+.latest_news_article1 .wrap-content{
+	max-width: 1400px;
+} 
+
+.latest_news_article1 .page_footer .wrap-content{
+	max-width: 1738px;
+	width: 100%;
+}
+.latest_news_article1 .page_heading{
+	margin-top: 56px;
+	margin-top: 5.6rem;
+	padding-top: 65px;
+	padding-top: 6.5rem;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	justify-content: center;
+	-webkit-box-pack:center;
+    -ms-flex-pack:center;
+}
+.latest_news_article1 .page_heading .bg{	
+	background:url("../images/pages/latest_news_article1/bg_grad.svg");
+	position: absolute;
+	top: 56px;
+	top: 5.6rem;
+	left:0;
+	width: 100%;
+    /*height: 700px;*/
+    /*height: 65.12%;*/
+    height: 0;
+    padding-bottom: 43.2%;
+	z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.latest_news_article1 .page_heading .img_container{
+	/*width: 900px;*/
+	width: 47%;
+	/*height: 700px;*/
+    height: 0;
+    padding-bottom: 44.22%;
+	margin-left:60px;
+	display: inline-block;
+	position: relative;
+}
+.latest_news_article1 .page_heading .img_container .main_img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-o-object-position: center;
+	   object-position: center;
+	position: absolute;
+}
+.latest_news_article1 .page_title{
+	/*max-width: 757px;*/
+	width: 40%;
+	margin-left:90px;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	/*margin-top:126px;*/
+}
+.latest_news_article1 .page_title .title{
+	margin-bottom: 32px;
+}
+.latest_news_article1 .page_title .date_box{
+	margin-bottom: 52px;
+}
+.latest_news_article1 .page_title .date_box > span{
+	color:#0CEBB3;
+}
+.latest_news_article1 .page_title .date{
+	border-left:2px solid #FFFFFF;
+	padding-left:14px;
+	margin-left:14px;
+}
+.latest_news_article1 .page_title hr{
+	width: 180px;
+	border-bottom: 3px solid #00CF9B;
+	float:left;
+}
+.latest_news_article1 .page_body{
+	margin-top:52px;
+	max-width: 745px;
+	position: relative;
+}
+.latest_news_article1 .page_body h2,.page_body p{
+	color:#333333;
+	margin-bottom: 54px;
+}
+.latest_news_article1 .page_body h2{
+	line-height:50px;
+	line-height:5rem;
+}
+.latest_news_article1 .page_body p{
+	line-height: 40px;
+	line-height: 4rem;
+}
+.latest_news_article1 .page_img{
+	max-width: 1400px;
+	width: 100%;
+	position: relative;
+	display:block;
+	margin:0 auto;
+}
+.latest_news_article1 .page_img .img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-o-object-position: center;
+	   object-position: center;	
+}
+.latest_news_article1 .page_img .bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:22px;
+	top:-22px;
+	z-index: -1;
+}
+.latest_news_article1 .page_footer{
+	position: relative;
+}
+.latest_news_article1 .page_footer .wrap-content{
+	/*max-width: 1672px;*/
+	width: 100%;
+	margin:0 auto;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	position: relative;
+	padding-bottom: 33px;
+	margin-top: 56px;
+	margin-top: 5.6rem;
+    justify-content: center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+}
+.latest_news_article1 .page_footer .card_holder {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	max-width: 1231px;
+	-webkit-box-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+	margin-left:16px;
+}
+.latest_news_article1 .page_footer .card_holder .card{
+	max-width: 296px;
+    margin: 0;
+    margin-right: 16px;
+    border-radius: 17px;
+}
+.latest_news_article1 .page_footer .bg{
+	width: 100%;
+	/*height: 408px;*/
+    height: 91%;
+	position: absolute;
+	bottom: 0;
+	background:url("../images/pages/latest_news_article1/bg_grad_bottom.svg");
+	z-index: -1;
+}
+.latest_news_article1 .page_footer .footer_title{
+	/*margin-left:55px;*/
+    margin-left: 2.9%;
+    margin-right:2.9%;
+	/*margin-top: 121px;*/
+    margin-top: 6.31%;
+	max-width: 390px;
+	width: 24%;
+
+}
+.latest_news_article1 .page_footer .footer_title .title{
+	/*margin-bottom: 31px;*/
+	margin-bottom: 8%;
+    height: 18.6%;
+
+}
+
+.latest_news_article1 .page_footer .footer_title .desc{
+	/*margin-bottom: 30px;*/
+    margin-bottom: 7.7%;
+}
+
+.latest_news_article1 .page_footer .footer_title .more-btn{
+	left:0;
+	-webkit-transform:none;
+	-ms-transform:none;
+	    transform:none;
+}
+.latest_news_article1 .subscription_email {
+	margin-top:34px;
+}
+.latest_news_article1 .card.md{
+    height: 0;
+    padding-bottom: 33.8%;
+}

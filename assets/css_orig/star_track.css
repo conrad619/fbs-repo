@@ -1,0 +1,340 @@
+.star_track .wrap-container{
+    position: relative;
+}
+.star_track .head_bg{
+    width: 100%;
+    height: 813px;
+    height: 0;
+    padding-bottom: 41%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background:url("../images/pages/star_track/star_track_bg.png");
+    background-position: top;
+    background-size: cover;
+    z-index: -1;
+}
+.star_track .wrap-content{
+    position: relative;
+    /*max-width:1724px;*/
+}
+.star_track .body_content{
+    max-width: 757px;
+}
+.star_track .card_content{
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 110px;
+    margin-bottom: 11rem;
+}
+.star_track .fade_overlay{
+    background: url(../images/pages/star_track/star_tack_bg_fade.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+.star_track .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/pages/star_track/bg.svg);
+    z-index: -2;
+    background-size: cover;
+    top: 810px;
+    top:auto;
+    margin-top: 40%;
+}
+.star_track .head_title{
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-top: 5.6rem;
+    padding:0 55px;
+    /*display: block;*/
+    /*max-width: 1020px;*/
+    -webkit-display:flex;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    padding-right: 20px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.star_track .head_title p{
+    max-width: 544px;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-top: 37px; */
+    margin-bottom: 43px;
+    /* padding: 0 24%; */
+    /* white-space: nowrap; */
+}
+.star_track .head_title .player_name_holder p{
+    /*max-width: 544px;*/
+    font-size: 2vw;
+    text-align: center;
+    margin: 0 auto;
+    /*margin-top: 37px;*/
+    margin-bottom: 43px;
+    /*padding:0 24%;*/
+    white-space: nowrap;
+}
+.star_track .title{
+    width: 100%;
+}
+.star_track .card_holder{
+    margin-left: 10.35%;
+}
+.star_track .slick-initialized .slick-slide{
+    padding-top: 23px;
+}
+.star_track .card_holder .card{
+    width: 350px !important;
+    margin:0;
+    margin-right: 47px;
+    margin-bottom: 16px;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    border: 9px solid #FFD800;
+}
+.star_track .subscript{
+    margin-bottom: 21px;
+}
+.star_track .hr-break.green{
+    border-bottom: 3px solid #00CF9B;
+    width: 100%;
+    margin:48px 0 75px;
+}
+.star_track .related_card{
+    max-width: 430px;
+    background: #341252;
+    margin-right: 24px;
+}
+.star_track .half_card_holder{
+    margin-bottom: 17px;
+    -webkit-display:flex;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+.star_track .half_card_holder .card{
+    height: 400px;
+    width: 50% !important;
+    margin:0;
+}
+.star_track .half_card_holder .card:first-child{
+    margin-right: 16px;
+}
+.star_track .half_card_holder .rec_overlay{
+    opacity: .6;
+    width: 847px;
+    height: 482px;
+    position: absolute;
+    top: 114px;
+    left:auto;
+    right: -445px;
+    -webkit-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+        transform: rotate(-55deg);
+}
+.star_track .half_card_holder .lg .card_mask_img{
+    height: 384px!important;
+}
+.star_track .half_card_holder .card.lg .logo_symbols .desc{
+    max-width: 775px;
+}
+.star_track .half_card_holder .card.lg .logo_symbols{
+    top:111px;
+}
+.star_track .half_card_holder .card.lg .box-date{
+    top:53px;
+}
+.star_track .card.siao_card{
+    max-width: 350px;
+    height: 548px;
+}
+.star_track .card.siao_card .desc{
+    top: 110px;
+    padding: 0 28px;
+    padding-right: 47px;
+    text-shadow: 0px 2px 0 #00CF9B;
+}
+.star_track .card.siao_card .card_mask_img{
+    right: -22px;
+    height: 286px!important;
+}
+.star_track .half_card_holder .card .desc{
+    top: 30%;
+    padding: 0 28px;
+    width: 54%;
+}
+.star_track .section_left {
+    width: 41%;
+    /*padding-top: 167px;*/
+    padding-top: 9%;
+}
+.star_track .section_right{
+    width: 53%;
+    position: relative;
+}
+
+
+.star_track .star_img{
+    display:none;
+}
+.star_track .featured_holder{
+    position: relative;
+    /* max-width: 821px; */
+    height: 0;
+    padding-bottom: 74%;
+    margin: 54px auto;
+    width: 100%;
+}
+.star_track .player_image_holder{
+    position: absolute;
+    top: 53px;
+    left:50%;
+    -webkit-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+        transform: translate(-50%,0);
+}
+.star_track .player_name_holder{
+    position: absolute;
+    /* top: 514px; */
+    top: 72%;
+    /*min-width: 451px;*/
+    min-width: unset;
+    width: auto;
+    /*height: 96px;*/
+    height: 9.6rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+        transform: translate(-50%,0);
+    /*line-height: 96px;*/
+    line-height: 9.6rem;
+}
+.star_track .field {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    /* top: 12%; */
+    -webkit-transform: translate(-50%,-0%);
+    -ms-transform: translate(-50%,-0%);
+        transform: translate(-50%,-0%);
+}
+.star_track .player_clip{
+    /* max-width: 370px; */
+    width: 44%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    /* padding-top: 23px; */
+    -webkit-transform: translate(-50%,-0%);
+    -ms-transform: translate(-50%,-0%);
+        transform: translate(-50%,-0%);
+    /* margin-top: 58px; */
+}
+.star_track .player_clip svg image{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;    
+    clip-path: url(#featured_player_clipping);
+    -webkit-clip-path: url(#featured_player_clipping);
+}
+.star_track .player_clip:hover img{
+    height: 115%;
+    left: 50%;
+    position: relative;
+    -webkit-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+        transform: translate(-50%,0);
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+}
+.star_track .player_name_holder img{
+    width: 210%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+            transform:translateX(-50%);
+}
+.star_track .card_holder{
+    position: relative;
+}
+.star_track .card.yellow-card{
+    height: 560px;
+    
+}
+.star_track .card.yellow-card .name_holder{
+    height: 73px;
+}
+.star_track .card.yellow-card .name_holder p{
+    line-height: 73px;
+}
+.star_track .card.yellow-card .new_tag{
+    left: 13px;
+    bottom: 83px;
+    bottom: 8.3rem;
+    padding: .3rem 2rem;
+    width: 8.4rem;
+    /*height: 25px;*/
+    font-size:1.8rem;
+    text-align: center;
+    height: 2.5rem;
+}
+.star_track .card.yellow-card .clip_image{
+    height: 478px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+.star_track .card.yellow-card .logo_symbols{
+    width:auto;
+    height: 111px;
+    top: -22px;
+    right: -22px;
+}
+.star_track .slick-next{
+    right: 77px;
+    z-index: 900;
+    width: 31px;
+    height: 50px;
+}
+.star_track .card_holder_bg{
+    width: 108%;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+    left: 91px;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+.star_track .slick-dots li.slick-active button:before{
+    color:#FFFFFF;
+}
+.star_track .slick-dots li button:before{
+    color:#FFFFFF;
+    font-size:56px;
+}
+.star_track .line_break{
+    max-width: 1232px;
+}
+.star_track .slick-dots{
+    bottom: -44px;
+}

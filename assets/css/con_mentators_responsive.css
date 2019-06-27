@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1024px) {
+    .con_mentators .video_player_holder .video_container{
+        width: 100%;
+    }
+    .con_mentators .videos{
+       padding: 0 2.8rem;
+    }
+
+    .con_mentators .video .info{
+        height: 2rem;
+        bottom: 3.5%;
+    }
+    .con_mentators .video .info > *{
+        padding:0;
+        margin:0;
+    }
+    .con_mentators .video .info .clock{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    .con_mentators .video{
+        margin: 1.5rem;
+    }
+    .con_mentators .featured_video{
+        margin:1.7rem;
+    }
+    .con_mentators .video .sect{
+        padding:0 1rem;
+    }
+    .con_mentators .video .date{
+        padding:0 1rem;
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+
+    .con_mentators .head_bg{
+        /*height: 243px;*/
+        height: 0;
+        padding-bottom: 58.7%;
+        z-index: 0;
+    }
+    .con_mentators .head_title{
+        margin-top: 35px;
+        margin-bottom: -38px;
+        height: 0;
+        padding-bottom: 57.43%;
+    }
+    .con_mentators .head_title img,.con_mentators .head_title .title{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .con_mentators .videos{
+        padding:0;
+    }
+    .con_mentators .featured_video{
+        margin:0;
+        height: 400px;
+        padding-bottom: 0;
+    }
+    .con_mentators .featured_video h1{
+        text-shadow: none;
+        top:auto;
+        bottom: 1rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
+        width: 47%;
+    }
+    .con_mentators .featured_video .play_button{
+        top: auto;
+        bottom: 30%;
+        height: 58px;
+        width: 58px;
+    }
+    .con_mentators .videos{
+        z-index: 0;
+    }
+    .con_mentators .video{
+        padding-bottom: 0;
+        height: 120px;
+        margin: 4.5px 0;
+        width:100% !important;
+    }
+    .con_mentators .head{
+        z-index: 1;    
+    }
+    .con_mentators .video_holder{
+        display: block;
+        padding:0 9px;
+        padding-top: 24px;
+    }
+    .con_mentators .featurd_img_con{
+        height: 100%;
+        width:50%;
+        right: 0;
+        overflow: visible;
+    }
+    .con_mentators .video h1{
+        line-height: 18px;
+        line-height: 1.8rem;
+        height: 5.4rem;
+        font-size: 1.6rem;
+        overflow: hidden;
+        width: 100%;
+        right: 0; 
+        padding:0;
+        padding-left:1.5rem;
+        bottom: 44%;
+    }
+    .con_mentators .video .featured_img{
+        width: 100%;
+        left:-100%;
+    }
+    .con_mentators .video .play_button {
+        position: absolute;
+        left: 1.5rem;
+        right: 0;
+        top: auto;
+        bottom: 10px;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+        object-position: left;
+        z-index: 100;
+        background-size: contain;
+        background-position: left;
+    }
+    .con_mentators .video_player_holder .video_container{
+        width: 100%;
+        top: 47%;
+    }
+    .con_mentators .featured_video .video_char_m{
+        height: 68.25%;
+    }
+    .con_mentators .video:hover .featured_img{
+        left: 0;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-100%,-50%);
+    }
+    .con_mentators .card-fade{
+        margin-bottom: -1px;
+    }
+
+}

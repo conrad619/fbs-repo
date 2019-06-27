@@ -1,0 +1,174 @@
+
+.siao_mates .wrap-container{
+	position: relative;
+}
+.siao_mates .head_bg{
+	width: 100%;
+	height: 883px;
+	position: absolute;
+	top:0;
+	left: 0;
+	background:url("../images/pages/siao_mates/head_bg.png");
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+.siao_mates .wrap-content{
+	position: relative;
+    max-width: 1447px;
+    padding:0 16px;
+}
+.siao_mates .fade_overlay{
+    background: url(../images/pages/siao_mates/head_fade.svg);
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 69%;
+}
+.siao_mates .bg{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/pages/siao_mates/bg.svg);
+    z-index: -2;
+    background-size: cover;
+    top: 880px;
+}
+.siao_mates .head_title{
+    margin: 0 auto;
+    margin-top: 157px;
+    display: block;
+    max-width: 909px;
+}
+.siao_mates .head_title .title{
+    width: 100%;
+}
+.siao_mates .head_title p{
+    max-width: 544px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-bottom: 43px;
+}
+.siao_mates .head_title .title_m{
+    display:none;
+}
+.siao_mates .card_holder{
+	height:auto;
+    -webkit-display:flex;
+	display:-webkit-flex;
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: start;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+}
+.siao_mates .card_holder .card{
+	width: 296px;
+	margin:0;
+	margin-right: 16px;
+    margin-bottom: 16px;
+    flex:1;
+}
+.siao_mates .card_holder .card:last-child{
+	margin-right:0;
+}
+.siao_mates .subscript{
+	margin-bottom: 21px;
+}
+.siao_mates .hr-break.green{
+	border-bottom: 3px solid #00CF9B;
+	width: 100%;
+	margin:48px 0 75px;
+}
+.siao_mates .related_card{
+	max-width: 430px;
+	background: #341252;
+	margin-right: 24px;
+}
+.siao_mates .half_card_holder{
+	margin-bottom: 17px;
+    -webkit-display:flex;
+	display:-webkit-flex;
+	display:flex;
+}
+.siao_mates .half_card_holder .card{
+    /*height: 400px;*/
+    height: 0;
+    padding-bottom: 28.3%;
+	width: 50% !important;
+	margin:0;
+    border-radius: 29px;
+}
+.siao_mates .half_card_holder .card:first-child{
+    margin-right: 16px;
+}
+.siao_mates .half_card_holder .rec_overlay{
+    opacity: .6;
+    width: 847px;
+    height: 482px;
+    position: absolute;
+    /*top: 114px;*/
+    top: 28%;
+    left:auto;
+    right: -394px;
+    -webkit-transform: rotate(-48deg);
+    transform: rotate(-48deg);
+
+}
+.siao_mates .half_card_holder .lg .card_mask_img{
+    /*height: 384px!important;*/
+    height: 96% !important;
+    right: 76px;
+}
+.siao_mates .half_card_holder .card.lg .logo_symbols .desc{
+	max-width: 775px;
+}
+.siao_mates .half_card_holder .card.lg .logo_symbols{
+	top:111px;
+}
+.siao_mates .half_card_holder .card.lg .box-date{
+	top:36px;
+}
+.siao_mates .card.siao_card{
+	max-width: 350px;
+	/*height: 548px;*/
+    height: 0;
+    padding-bottom: 38.74%;
+}
+
+.siao_mates .card.siao_card .box-date{
+    top: 30px;
+}
+.siao_mates .card.siao_card .rec_overlay{
+    /*top: 60%;*/
+    top: auto;
+    bottom: -15%;
+}
+.siao_mates .card.siao_card .desc{
+	top: 90px;
+    padding: 0 28px;
+    padding-right: 47px;
+    text-shadow: 0px 2px 0 #00CF9B;
+}
+.siao_mates .card.siao_card .card_mask_img{
+	right: 0px;
+    /*height: 286px!important;*/
+    height: 52.2% !important;
+}
+.siao_mates .half_card_holder .card .desc{
+    top: 25%;
+    padding: 0 28px;
+    width: 52%;
+    text-shadow: 0 2px 0 #00CF9B;
+}
+.siao_mates .more-btn{
+    margin-top: 30px;
+}
+.siao_mates .overlay{
+    opacity: .6;
+}

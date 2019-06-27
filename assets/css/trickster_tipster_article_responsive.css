@@ -1,0 +1,218 @@
+
+@media only screen and (max-width: 1440px) {
+	.trickster_tipster_article .page_title .title{
+        max-width: 661px;
+	}
+	.trickster_tipster_article .page_footer{
+	    padding-bottom: 30%;
+	}
+	.trickster_tipster_article .page_title .title h1{
+	    margin-left: -4px;
+        font-size: 6rem;
+	}
+	.trickster_tipster_article .page_title .title > hr{
+	    height: 2.1rem;
+		background: #0CEBB3;
+		margin: 0;
+		margin-top: 3.4rem;
+		margin-bottom: 0.4rem;
+		display: inline-block;
+		border: 0;
+	}
+}
+@media only screen and (max-width: 1060px) {
+	.trickster_tipster_article .subscription_email form{
+		width: 80%;
+		margin:0 auto;
+	}
+	
+	.trickster_tipster_article .subscription_email .sub_container{
+		-webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	.trickster_tipster_article .page_title .title{
+	    max-width: 497px;
+	}
+	.trickster_tipster_article .subscription_email .sub_container{
+	    padding: 0 2rem;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.trickster_tipster_article .page_title .title{
+        max-width: 458px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.trickster_tipster_article .page_title .title{
+        max-width: 381px;
+	}
+	.trickster_tipster_article .page_footer{
+	    padding-bottom: 33%;
+	}
+	
+	.trickster_tipster_article .page_footer .card.lg .box-date{
+		top:4%;
+	    padding: .3rem 1.8rem .3rem;
+	}
+	.trickster_tipster_article .page_footer .card.lg .logo_symbols .desc{
+		height: 4rem;
+		line-height: 2rem;
+		font-size: 2rem;
+	}
+	.trickster_tipster_article .page_title .title > hr{
+	    height: 2rem;
+	    background: #0CEBB3;
+	    margin: 0;
+	    margin-top: 2.5rem;
+	    margin-bottom: 0.4rem;
+	    display: inline-block;
+	    border: 0;
+	}
+	.trickster_tipster_article .page_title .title h1{
+	    margin-left: -3px;
+        font-size: 5rem;
+	}	
+	.trickster_tipster_article .page_title{
+    	padding-right: 6%;
+	}
+
+
+}
+@media only screen and (max-width: 767px) {
+	.trickster_tipster_article .tag{
+	    margin: 30px 0;
+	}
+	.trickster_tipster_article .credit{
+		top:32px;
+	}
+	.trickster_tipster_article .fixed_holder.page_img{
+        z-index: 1;
+	    margin-left: 0;
+	    width: 100%;
+	    height: 100%;
+	    padding-bottom: 0;
+	}
+	.trickster_tipster_article .wrap-body{
+  		margin: 0;
+   		padding: 0 20px;
+   		width: 100%;
+  		max-width: none;
+  		float:none;
+	}
+	.trickster_tipster_article .wrap-container{
+		overflow: hidden;
+	}
+	.trickster_tipster_article .fixed_container .wrap{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		top:0;
+		left:0;
+	}
+	.trickster_tipster_article .fixed_container .dark_overlay{
+		display:block;
+	}
+	.trickster_tipster_article .fixed_container{
+		width: 100%;
+	    position: relative;
+	    height: 343px;
+	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
+		padding-bottom: 0;
+	}
+	.trickster_tipster_article .fixed_container .char{
+		height: 76.8%;
+		width: auto;
+		left:auto;
+		right: 28px;
+		width: 100%;
+	    background-size: contain;
+    	background-position: right;
+    	object-fit: contain;
+    	object-position: right;
+    	-webkit-transform: none;
+    	transform: none;
+	}
+	.trickster_tipster_article .fixed_container .overlay,
+	.trickster_tipster_article .fixed_container .rec_overlay{
+		display:none;
+	}
+	.trickster_tipster_article .fixed_container .logo_symbols{
+	    width: 51%;
+		height: 29%;
+	    top: 114px;
+	    left: 4%;
+	    -webkit-transform: none;
+	    transform: none;
+	}
+	.trickster_tipster_article .fixed_container .logo_symbols .logo{
+		/*width: 100px;*/
+		width: 50%;
+	}
+	.trickster_tipster_article .page_title .title hr{
+		display:none;
+	}
+	.trickster_tipster_article .page_body{
+		padding-left: 0;
+	    margin-top: 29px;
+	}
+	.trickster_tipster_article .page_body h2, .page_body p,
+	.trickster_tipster_article .page_title .title h1{
+		color:#FFFFFF;
+	}
+	.trickster_tipster_article .page_body h2, .page_body p{
+	    margin-bottom: 31px;
+	}
+	.trickster_tipster_article .page_title .title h1{
+		position: relative;
+	    font-size: 2.6rem;
+	    line-height: 3rem;
+	    max-width: 300px;
+	}
+	.trickster_tipster_article .page_title .date_box > span{
+		color:#FFFFFF;
+	}
+	.trickster_tipster_article .page_title .date_box{
+	    margin-bottom: 14px;
+	}
+	.trickster_tipster_article .page_title{
+		margin-top:0px;
+		padding:0;
+	}
+	.trickster_tipster_article .page_title .date {
+	    border-left: 2px solid #FFFFFF;
+	    padding-left:12px;
+	}
+	.trickster_tipster_article .page_body p{
+		line-height: 28px;
+		line-height: 2.8rem;
+	}
+	.trickster_tipster_article .page_body h2 {
+	    line-height: 38px;
+	    line-height: 3.8rem;
+	}
+	.trickster_tipster_article .fixed_icons{
+		display: none;
+	}
+	.trickster_tipster_article .page_img{
+		z-index: 0;
+		margin-left: -20px;
+	    width: 100vw;
+        height: 0;
+   	 	padding-bottom: 60.56%;
+	}
+	.trickster_tipster_article .page_img .img{
+		position: absolute;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.trickster_tipster_article .page_img{
+    	padding-bottom: 92.56%;
+	}
+}

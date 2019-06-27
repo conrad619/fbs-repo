@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.912" height="31.396" viewBox="0 0 50.912 31.396">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.377;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="keyboard-right-arrow-button" class="cls-1" transform="translate(0 90.046) rotate(-90)">
+    <g id="chevron-right" transform="translate(58.65)">
+      <path id="Path_13999" data-name="Path 13999" class="cls-2" d="M64.59,0,58.65,5.94,78.166,25.456,58.65,44.973l5.94,5.94L90.046,25.456Z" transform="translate(-58.65)"/>
+    </g>
+  </g>
+</svg>

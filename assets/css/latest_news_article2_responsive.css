@@ -1,0 +1,90 @@
+
+@media only screen and (max-width: 1366px) {
+	.latest_news_article2 .page_title .title{
+	    max-width: 588px;
+	}
+	.latest_news_article2 .page_footer .subscription_email .email_warning{
+		right: 11rem;
+
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	
+	.latest_news_article2 .page_title .title{
+	    max-width: 539px;
+	}
+	/*.latest_news_article2 .subscription_email .email_warning{
+	   	right: 10.9rem;
+	}*/
+	.latest_news_article2 .page_footer .card_holder .card {
+	    padding-bottom: 46.2%;
+	}
+
+	.latest_news_article2 .aside .wrap-content{	
+		padding-bottom: 30px;
+	}
+	.latest_news_article2 .page_footer .subscription_email{
+		padding:0 3rem;
+	}
+	.latest_news_article2 .more-btn p{
+		padding:1rem 2rem;
+	}
+	/*.latest_news_article2 .subscription_email form{
+		height: 100%;
+	}
+	.latest_news_article2 .subscription_email form input[type="email"]{
+		padding:1.2rem 1em;
+		font-size: 1.5rem;
+		padding-right: 31.3%;
+	}*/
+	/*.latest_news_article2 .subscription_email form input[type="submit"]{
+		padding:1.2rem 2.2rem;
+		font-size: 1.5rem;
+	}*/
+	.latest_news_article2 .wrap-content-body{
+	    padding-right: 26.65%;
+	}
+	.latest_news_article2 .aside{
+	    width: 26.65%;
+	}
+	.latest_news_article2 .page_footer .subscription_email{
+	    width: 37%;
+	}
+	.latest_news_article2 .card .desc p{
+		padding: 1rem 1rem;
+    	padding-top: 1rem;
+	}
+	.latest_news_article2 .box-date{
+	    padding: 3px 1.8rem 3px;
+	}
+	.latest_news_article2 .page_footer .card_holder .card{
+		margin-right: 1rem;
+	}
+	.latest_news_article2 .aside .wrap-content{
+		padding: 11rem 8% 0 8%;
+	    padding-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.latest_news_article2 .page_footer .subscription_email .email_warning{
+		right: 8rem;
+		
+	}
+	.latest_news_article2 .page_footer .subscription_email form input[type="email"]{
+	    padding-right: 8rem;
+	}
+	.subscription_email form input[type="submit"]{
+	    padding: 1.2rem 1.3rem;
+	}
+	.latest_news_article2 .page_title .title{
+	    margin-right: -23px;
+	}
+
+}
+@media only screen and (max-width: 767px) {
+	.latest_news_article2 .wrap-container{
+		background:none;
+	}
+}

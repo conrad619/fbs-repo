@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="296" height="388.849" viewBox="0 0 296 388.849">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.08" x2="0.5" y2="0.562" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#1a1818" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="_2019-02-27T204425Z_31483106_RC1D98A65460_RTRMADP_3_SOCCER-ENGLAND-CRY-MUN" data-name="2019-02-27T204425Z_31483106_RC1D98A65460_RTRMADP_3_SOCCER-ENGLAND-CRY-MUN" d="M24.667,0H296V364.873c0,13.241-11.044,23.976-24.667,23.976H24.667C11.044,388.849,0,378.115,0,364.873V0Z" transform="translate(296 388.849) rotate(180)" fill="url(#linear-gradient)"/>
+</svg>

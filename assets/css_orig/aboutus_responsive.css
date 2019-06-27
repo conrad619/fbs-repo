@@ -1,0 +1,45 @@
+@media only screen and (max-width: 767px) {
+	.aboutus .wrap-content{
+		padding:0 20px;
+	}
+	.aboutus .head_bg{
+		margin-top: 0;
+	    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+    	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+    	height: 343px;
+    	 background-image:url(../images/pages/aboutus/head_bg_m.png);
+	    background-size: cover;
+	    background-position: center;
+	}
+	.aboutus .head_bg img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	    object-position: center;
+	}
+	.aboutus .body_content {
+	    margin-top: 0px;
+	}
+	.aboutus .body_content p{
+		line-height: 28px;
+		line-height: 2.8rem;
+	}
+	.aboutus .body_content h1{
+		margin-bottom: 36px;
+	}
+	.aboutus .body_content p{
+		margin-bottom: 33px;
+	}
+	.aboutus .logo{
+		width: 100%;
+	    margin-bottom: 20px;
+	}
+
+	.aboutus .copyright{
+		margin-top: 0;
+	}
+	.aboutus .wrap_image{
+		padding-bottom: 20%;
+		margin-bottom: 2rem;
+	}
+}

@@ -1,0 +1,103 @@
+
+@media only screen and (max-width: 1024px) {
+	.latest_news_article1 .page_heading .img_container{
+		/*margin-left: 0;*/
+	}
+	.latest_news_article1 .page_title{
+		/*margin-left:0px;*/
+		/*padding:0 20px;*/
+		/*width: 53%;*/
+	}
+	.latest_news_article1 .page_title .date_box{
+		/*margin-bottom: 13px;*/
+	}
+	.latest_news_article1 .page_heading .bg{
+	    /*padding-bottom: 47.2%;*/
+	}
+	.latest_news_article1 .page_footer .card_holder .card{
+		padding-bottom: 41.8%;
+	    margin-right: 1rem;
+	}
+	.latest_news_article1 .box-date {
+	    padding: .3rem 1.8rem .3rem;
+	}
+	.latest_news_article1 .card .desc p{
+	    padding: 1rem;
+    	padding-top: 2rem;
+	}
+	.latest_news_article1 .page_footer .footer_title .title{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.latest_news_article1 .page_heading{
+	    margin-top: 0;
+    	padding-top: 0;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.latest_news_article1 .page_title .title h1{
+	    font-size: 26px;
+	    font-size: 2.6rem;
+	}
+	.latest_news_article1 .page_heading .img_container{
+		width: 100%;
+		height: 414px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+		padding:0;
+		margin:0;
+	}
+	.latest_news_article1 .page_heading .bg{
+		background: transparent;
+	}
+	.latest_news_article1 .page_title .date_box > span{
+		color:#FFFFFF;
+	}
+	.latest_news_article1 .page_title{
+		max-width: unset;
+		/*margin:0 20px;*/
+		margin-top: -42px;
+		width: 100%;
+		padding:0 20px;
+	}
+	.latest_news_article1 .page_title .date_box{
+		margin-bottom: 27px;
+	}
+	.latest_news_article1 .page_title .title{
+		margin-bottom: 29px;
+	}
+	.latest_news_article1 .page_body{
+    	padding: 0 20px;
+		margin-top: 20px;
+    	max-width: none;
+	}
+	.latest_news_article1 .page_body h2, .page_body p{
+		color:#FFFFFF;
+	}
+	.latest_news_article1 .page_body p{
+		line-height: 28px;
+	}
+	.latest_news_article1 .page_body h2{
+		line-height: 38px;
+	}
+
+	.latest_news_article1 .page_title .title h1{
+		position: relative;
+		color:#FFFFFF;
+		max-width: 312px;
+	}
+	.latest_news_article1 .page_title > hr{
+		margin:0;
+	}
+	.latest_news_article1 .page_img{
+	    height: 0;
+    	padding-bottom: 50%;
+	    margin-bottom: 54px;
+	}
+	.latest_news_article1 .page_img .img{
+		position: absolute;
+	}
+}

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1024px) {
+	.latest_news .subscription_email .sub_container{
+		-webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+	}
+	.latest_news .subscription_email form{
+	    width: 34%;
+	}
+
+}
+@media only screen and (max-width: 767px) {
+
+	.latest_news .wrap-content.mb{
+		padding-right: 0;
+	}
+	.latest_news .card-content{
+		height: 300px;
+		padding-bottom: 0;
+	}
+	.latest_news .card-content .card_holder{
+		padding-left:10px;
+		padding-right: 0;
+		width: 100%;
+	}
+	.latest_news .card-content .card_holder .card{
+	    width: 180px !important;
+	    margin: 0;
+	    margin-right: 10px;
+	    /* margin-bottom: 16px; */
+	    height: 300px !important;
+	}
+	.latest_news .card-content .card .desc p{
+		line-height: 18px;
+	    padding: 8px 12px;
+	}
+	.latest_news .card-content .card_holder{
+		position: relative;
+		display: block;
+		margin:0;
+		column-count: unset;
+	}
+	.latest_news .card-content .card .box-date{
+	    font-size: 12px;
+		padding: 3px 10px 0px;
+		top: 16px;
+	}
+	
+	.latest_news .head_title p{
+		display:none;
+	}
+	.latest_news .fade_overlay{
+		background: url("../images/pages/latest_news/fade_upside.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	    height: 35%;
+	}
+	.latest_news .head_bg{
+		/*height: 321px;*/
+	    height: 0;
+	    padding-bottom: 77.6%;
+	}
+	.latest_news .bg{
+		top: 319px;
+	}
+	.latest_news .head_title{
+		margin-top: 87px;
+    	margin-bottom: 45px;
+	}
+	.latest_news .head_title img,.latest_news .head_title .title{
+       margin: 0 auto;
+	    display: block;
+	    width: 69.5%;
+        height: 68px;
+    	background-size: contain;
+	}
+}

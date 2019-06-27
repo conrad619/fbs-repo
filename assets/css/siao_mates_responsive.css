@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1024px) {
+    .siao_mates .card.siao_card .rec_overlay{
+        bottom: -25%;
+    }
+    .siao_mates .card.siao_card .desc{
+        top: 64px;
+        padding: 0 2rem;
+    }
+    .siao_mates .card.siao_card{
+        padding-bottom: 43.74%;
+    }
+    .siao_mates .card.siao_card .card_mask_img{
+        height: 46.2% !important;
+    }
+    .siao_mates .half_card_holder .lg .card_mask_img{
+        right: 1.6rem;
+    }
+    .siao_mates .half_card_holder .card .desc{
+        top: 32%;
+        padding: 0 2rem;
+        width: 64%;
+        font-size: 3.5rem;
+    }
+    .siao_mates .half_card_holder .card.lg .box-date{
+        top:28px;
+    }
+    .siao_mates .subscription_email form{
+        width: 34%;
+    }
+    .siao_mates .subscription_email form input[type="email"]{
+        font-size: 2rem;
+    }
+    .siao_mates .subscription_email .sub_container{
+        -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+    .siao_mates div.mb{
+        padding-right: 0;
+    }
+    .siao_mates .card.siao_card{
+        width: 180px !important;
+        height: 300px;
+        margin: 0 9px;
+    }
+    .siao_mates .card.siao_card .card_mask_img{
+       height: 142px !important; 
+       width: 94px !important
+    }
+    .siao_mates .card.siao_card .box-date{
+        display:none;
+    }
+    .siao_mates .card.siao_card .rec_overlay{
+        left: -203px;
+        top: 213px;
+        -webkit-transform: rotate(-28deg);
+        transform: rotate(-28deg);
+        opacity: 1;
+    }
+    .siao_mates .card.siao_card .desc{
+        top: 36px;
+        padding-left: 15px;
+        padding-right: 19px;
+    }
+    .siao_mates .card_holder{
+        height: auto;
+    }
+    .siao_mates .head_title{
+        margin-top: 80px;
+        margin-bottom: 18px;
+        padding-bottom: 62%;
+        position: relative;
+    }
+    .siao_mates .head_title img{
+        width: 103%;
+    }
+    .siao_mates .head_title .title{
+        display:none;
+    }
+    .siao_mates .head_title .title_m{
+        display: block;
+        width: 116%;
+        height: 100%;
+        margin-left: -5%;
+        position: absolute;
+        background-size: contain;
+        object-fit: contain;
+    }
+    .siao_mates .head_bg {     
+        height: 271px;
+        height: 0;
+        padding-bottom: 65.6%;
+    }
+    .siao_mates .bg{        
+        top: 269px;
+    }
+}
